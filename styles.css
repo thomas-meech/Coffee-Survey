@@ -1,0 +1,89 @@
+h1, .description{
+    font-family: veranda, sans-serif;
+    text-align: center;
+    margin: 1em auto;
+    color: white;
+    text-shadow: 0 0 15px black;
+  }
+  
+  h1{
+    font-size: 40px;
+  }
+  
+  .description{
+    font-size: 20px;
+  }
+  
+  .p-survey{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    color: black;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://perfectdailygrind.com/wp-content/uploads/2019/02/coffee-bar-1.jpg);
+    font-family: veranda, sans-serif;
+    font-size: 16px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid white;
+  }
+  
+  .survey-body{
+    width: 90%;
+    background-color: rgba(222, 184, 135, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 700px;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input.radio{
+    width: auto;
+    vertical-align: bottom;
+  }
+  
+  input.checkbox{
+    width: auto;
+    vertical-align: bottom;
+  }
+  
+  .submit{
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+  }

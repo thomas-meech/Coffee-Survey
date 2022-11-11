@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Coffee Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Coffee Survey</h1>
+    <p id="description" class="description">Thank you for your time today</p>
+   <div class="survey-body"> 
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name <input id="name" name="name" type="text" required placeholder="Enter your name"/></label>
+        <label for="email" id="email-label">Email <input id="email" name="email" type="email" required placeholder="Enter your Email"/></label>
+        <label for="age" id="number-label">Age <input id="number" name="age" type="number" min="13" max="120" required placeholder="Enter your age"/></label>
+        </fieldset>
+        <fieldset>
+          <p class="p-survey">Are you a coffee drinker?</p>
+          <label for="yes-coffee-drinker" id="coffee-drinker"><input id="yes-coffee-drinker" type="radio" name="coffee-drinker" value="yes-coffee-drinker" class="radio"> Yes, every day I drink coffee</label>
+          <label for="occasional-coffee-drinker" id="coffee-drinker"><input id="occasional-coffee-drinker" type="radio" name="coffee-drinker" value="occasional-coffee-drinker" class="radio" > Occasionally, a few times a week</label>
+          <label for="no-coffee-drinker" id="coffee-drinker"><input id="no-coffee-drinker" type="radio" name="coffee-drinker" value="no-coffee-drinker" class="radio"> No, I never drink coffee</label>
+          <br>
+          <br>
+          <label for="survey-form"> Where do you buy your coffee from
+          <select id="dropdown" >
+            <option value="">(select one)</option>
+            <option value="1">Make it at home</option>
+            <option value="2">Starbucks</option>
+            <option value="3">Costa Coffee</option>
+            <option value="4">Caffè Nero</option>
+            <option value="5">Pret a Manger</option>
+            <option value="6">Greggs</option>
+            <option value="7">McDonalds</option>
+          </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <p class="p-survey">How many shots of coffee do you drink per day?</p>
+        <label><input id="checkbox-1" value="0-2-shots" type="checkbox" class="checkbox"/> 0-2 Shots</label>
+        <label><input id="checkbox-1" value="2-4shots" type="checkbox" class="checkbox"/> 2-4 Shots</label>  
+        <label><input id="checkbox-1" value="4-6-shots" type="checkbox" class="checkbox"/> 4-6 Shots</label>    
+        <label><input id="checkbox-1" value="unknown" type="checkbox" class="checkbox"/> You think I count?!</label>
+        <br>
+        <br>
+        <p>What is your typical coffee order</p>
+        <label for="survey-form"><textarea rows="3" cols="30" placeholder="Include the place you buy your coffee from followed by your order"></textarea></label>
+        </fieldset>
+        <label for="survey-form"><input id="submit" for="survey-form" type="submit" value="Submit" class="submit"/></label>
+        </form>
+        </div>
+        </body>
+      </html>
